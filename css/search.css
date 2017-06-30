@@ -1,0 +1,302 @@
+#header {
+    margin-bottom: 20px;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #515151;
+}
+
+#header>header {
+    font-size: 35px;
+    color: white;
+}
+
+#header>section {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#isearch {
+    margin: 0 4px 0 0;
+    padding: 0 8px;
+    width: 500px;
+    border: 0;
+    background-color: white;
+    height: 40px;
+}
+
+#isearch_input {
+    margin: 0;
+    width: 60px;
+    height: 40px;
+    border: 0;
+    background-color: white;
+}
+
+#isearch_input:hover {
+    background-color: #ccc;
+}
+
+#main {
+    float: left;
+    width: 62%;
+    min-height: 598px;
+    /*border: 1px solid;*/
+}
+
+.main_header {
+    position: relative;
+    padding: 30px 0 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#result_number {
+    float: left;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1;
+}
+
+#select_now {
+    float: right;
+    margin-top: -10px;
+    width: 100px;
+    height: 35px;
+    border-radius: 0;
+}
+
+#select_container {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 60px;
+    width: 120px;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.select:first-child {
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.select {
+    padding: 15px 0;
+    text-align: center;
+    color: #444;
+    cursor: pointer;
+    background-color: white;
+}
+
+.select:hover {
+    background-color: #EFEFEF;
+    color: black;
+}
+
+#main_ul {
+    padding: 30px 0;
+}
+
+#main_ul>li {
+    position: relative;
+    padding: 20px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+#main_ul>li:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.search_img {
+    float: left;
+    margin-right: 20px;
+    height: 102px;
+    width: 115px;
+}
+
+.search_title {
+    float: left;
+    font-size: 16px;
+    color: #222;
+    line-height: 1;
+}
+
+.search_title:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.search_word {
+    padding-top: 11px;
+    padding-bottom: 4px;
+    color: #999;
+    font-size: 12px;
+}
+
+.search_tip,
+.search_title,
+.search_word {
+    width: 75%;
+    float: left;
+}
+
+.tip_input {
+    float: left;
+    margin-top: 14px;
+    margin-right: 8px;
+    min-width: 70px;
+    padding: 2px 4px;
+    border-radius: 6px;
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+    border: 1px solid;
+}
+
+#container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pageable-item {
+    position: relative;
+    float: left;
+    margin-left: -1px;
+    min-width: 50px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #337ab7;
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+}
+
+.pageable-item:hover {
+    color: black;
+    background-color: #eee;
+    text-decoration: none;
+}
+
+.pageable-first {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.pageable-end {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.pageable-active {
+    color: black;
+    background-color: #eee;
+}
+
+.pageable-disable:hover {
+    cursor: no-drop;
+    color: #337ab7;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+#aside {
+    float: left;
+    margin-left: 6%;
+    width: 32%;
+    padding: 30px 0;
+}
+
+#icon_container {
+    margin-top: 20px;
+}
+
+.icon {
+    position: relative;
+    float: left;
+    margin: 20px 20px 0 0;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    /*border: 1px solid;*/
+}
+
+.icon_shadow {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: Alpha(opacity=100);
+    opacity: 100;
+    border-radius: 50%;
+}
+
+.icon_red {
+    background-color: #FF9999;
+}
+
+.icon_green {
+    background-color: #99FFCC;
+}
+
+.icon_blue {
+    background-color: #77FFFF;
+}
+
+.icon_purple {
+    background-color: #CCCCFF;
+}
+
+.icon_yellow {
+    background-color: #FFCC66;
+}
+
+.icon_pur {
+    background-color: #FF99CC;
+}
+
+#hot_news {
+    padding: 30px 0;
+}
+
+#hot_ul {
+    padding-top: 20px;
+}
+
+#hot_ul>li {
+    padding: 10px 0 6px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+#hot_ul>li:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.news_title {
+    color: #222;
+}
+
+.view {
+    margin-top: 8px;
+    color: #999;
+    font-size: 13px;
+}
+
+#footer {
+    margin-top: 45px;
+    padding: 40px 0;
+    background-color: #515151;
+    color: white;
+}
+
+#copyright {
+    text-align: center;
+}

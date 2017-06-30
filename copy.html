@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>美丽乡村</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/respond.js"></script>
+    <script type="text/javascript" src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- 导航 -->
+    <div id="nav_container">
+        <div class="mycontainer clearfix">
+            <img id="logo" src="http://oj7iva9la.bkt.clouddn.com/logo.png" alt="美丽乡村">
+            <ul id="nav">
+                <li><a href="#" class="nav_link inow_link">首页</a></li>
+                <li><a href="#" class="nav_link">特色展示</a></li>
+                <li><a href="#" class="nav_link">新闻资讯</a></li>
+                <li><a href="#" class="nav_link">乡村风采</a></li>
+                <!--<li><a href="#" class="nav_link">新闻中心</a></li>-->
+                <li><a href="#" class="nav_link">联系我们</a></li>
+                <li><a href="#" class="nav_link">驴友推荐</a></li>
+            </ul>
+            <div id="sign_container">
+                <a href="#" class="sign" data-toggle="modal" data-target="#signup_modal">注册</a>
+                <a href="#" class="sign" data-toggle="modal" data-target="#signin_modal">登入</a>
+                <div id="search_container" class="sign">
+                    <span id="search_in" class="glyphicon glyphicon-search"></span>
+                    <input type="text" id="search" class="form-control">
+                </div>
+                <div id="person">
+                    <a href="#" class="person_link"><img src="img/person.jpg" alt=""><span>余伟伟</span></a>
+                    <div id="person_content">
+                        <a id="person_setting" href="#">个人中心</a>
+                        <a id="cancle" href="#">注销</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 登入框 -->
+    <div class="modal fade" id="signin_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_in" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+                    <h4 class="modal-title" id="myModalLabel_in">
+                        SIGNIN
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p class="input_user"><img class="input_icon" src="img/user.png" alt=""><input type="text" id="text" class="input_control" placeholder="用户名"></p>
+                    <p class="input_password"><img class="input_icon" src="img/password.png" alt=""><input type="password" id="password" class="input_control" placeholder="密码"></p>
+                </div>
+                <div class="modal-footer">
+                    <div id="prompt_in"></div>
+                    <button type="button" id="signin_true" class="btn">
+					登入
+				    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 注册框 -->
+    <div class="modal fade" id="signup_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_up" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+                    <h4 class="modal-title" id="myModalLabel_up">
+                        SIGNUP
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p class="input_user"><img class="input_icon" src="img/user.png" alt=""><input type="text" id="text_up" class="input_control" placeholder="用户名"></p>
+                    <p class="input_password"><img class="input_icon" src="img/password.png" alt=""><input type="password" id="password_up" class="input_control" placeholder="密码"></p>
+                    <p class="input_password"><img class="input_icon" src="img/password.png" alt=""><input type="password" id="password_again" class="input_control" placeholder="确认密码"></p>
+                </div>
+                <div class="modal-footer">
+                    <div id="prompt_up"></div>
+                    <button type="button" id="signup_true" class="btn">
+					注册
+				    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div id="footer">
+        <p id="copyright">Copyright &copy; 2017 Beautiful rural. All rights reserved.</p>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+</body>
+
+</html>
